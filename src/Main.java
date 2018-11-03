@@ -31,6 +31,10 @@ public class Main {
                 tc.setJudul (" ") ;  
             }
             
+            
+            
+            
+            
         CallOfDuty cod = new CallOfDuty() ;
         cod.setPegiAge(12) ;
             System.out.println("1.) Call Of Duty Black Ops 4") ;
