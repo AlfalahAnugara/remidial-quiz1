@@ -17,17 +17,21 @@ public class Games {
     }
 
     public void setTomclancys(TomClancys tomclancys) {
-        this.tomclancys = tomclancys;
+        this.tomclancys = tomclancys ;
     }
 
     public void setCallofduty(CallOfDuty callofduty) {
-        this.callofduty = callofduty;
+        this.callofduty = callofduty ;
     }
     
     public int TotalHarga() {
         int total = this.tomclancys.getHarga() + this.callofduty.getHarga() ;
         
         return total ;
+    }
+    
+    public void info () {
+        
     }
 
 }
