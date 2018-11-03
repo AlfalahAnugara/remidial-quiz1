@@ -24,6 +24,10 @@ public class Games {
         this.callofduty = callofduty;
     }
     
-    
+    public int TotalHarga() {
+        int total = this.tomclancys.getHarga() + this.callofduty.getHarga() ;
+        
+        return total ;
+    }
 
 }
