@@ -16,6 +16,30 @@ public class TomClancys {
 
     public TomClancys() {
     }
+
+    public String getTipe() {
+        return tipe;
+    }
+
+    public void setTipe(String tipe) {
+        this.tipe = tipe;
+    }
+
+    public int getHarga() {
+        return harga;
+    }
+
+    public void setHarga(int harga) {
+        this.harga = harga;
+    }
+
+    public int getPegiAge() {
+        return pegiAge;
+    }
+
+    public void setPegiAge(int pegiAge) {
+        this.pegiAge = pegiAge;
+    }
     
     
 }
