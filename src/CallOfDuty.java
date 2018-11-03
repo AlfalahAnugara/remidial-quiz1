@@ -52,6 +52,10 @@ public class CallOfDuty {
     
     public String info () {
         String info = "" ;
+        info += "Judul Call Of Duty = "  + getJudul() +"\n" ;
+        info += "PG Age pada game = "  + getPegiAge() +"\n" ;
+        info += "Harganya = "  + getHarga() +"\n" ;
         
+        return info ;
     }
 }
