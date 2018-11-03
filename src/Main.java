@@ -13,7 +13,12 @@ public class Main {
     
     static Scanner gc = new Scanner (System.in) ;
     public static void main (String [] args) {
-        
+        TomClancys tc = new TomClancys() ;
+            System.out.println("Tom Clancy's The Division") ;
+            System.out.println("Tom Clancy's Rainbow Six Siege") ;
+            System.out.println("Tom Clancy's Splinter Cell") ;
+            System.out.print("Pilihan") ;
+            
     }
     
 }
