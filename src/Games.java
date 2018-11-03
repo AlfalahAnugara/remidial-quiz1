@@ -31,7 +31,10 @@ public class Games {
     }
     
     public void info () {
-        
+        String info = "" ;
+        System.out.println("Tom Clancys Info : " + this.tomclancys.info()) ;
+        System.out.println("Call Of Duty Info : " + this.callofduty.info()) ;
+        System.out.println("Total harga gamenya : " + TotalHarga()) ;
     }
 
 }
