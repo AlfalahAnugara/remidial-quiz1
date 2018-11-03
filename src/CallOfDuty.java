@@ -29,8 +29,16 @@ public class CallOfDuty {
         return harga;
     }
 
-    public void setHarga(int harga) {
-        this.harga = harga;
+    public void setHarga() {
+        if(this.judul.equalsIgnoreCase("Call Of Duty Black Ops 4")){
+            this.harga = 680000 ;
+        } else if(this.judul.equalsIgnoreCase("Call Of Duty Advanced Warfare")){
+            this.harga = 455000 ;
+        } else if(this.judul.equalsIgnoreCase("Call Of Duty Ghost")){
+            this.harga = 180000 ;
+        } else {
+            this.harga = 0 ;
+        }
     }
 
     public int getPegiAge() {
