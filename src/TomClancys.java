@@ -53,7 +53,11 @@ public class TomClancys {
     
     public String info () {
         String info = "" ;
-        info += 
+        info += "Judul Tom Clancy's = "  + getJudul() +"\n" ;
+        info += "PG Age pada game = "  + getPegiAge() +"\n" ;
+        info += "Harganya = "  + getHarga() +"\n" ;
+        
+        return info ;
     }
     
 }
