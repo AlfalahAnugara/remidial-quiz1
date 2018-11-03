@@ -13,6 +13,9 @@ public class TomClancys {
     private String tipe ;
     private int harga ;
     private int pegiAge ;
+
+    public TomClancys() {
+    }
     
     
 }
