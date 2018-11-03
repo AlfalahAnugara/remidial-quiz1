@@ -12,6 +12,18 @@ public class Games {
     
     private TomClancys tomclancys ;
     private CallOfDuty callofduty ;
+
+    public Games() {
+    }
+
+    public void setTomclancys(TomClancys tomclancys) {
+        this.tomclancys = tomclancys;
+    }
+
+    public void setCallofduty(CallOfDuty callofduty) {
+        this.callofduty = callofduty;
+    }
     
     
+
 }
