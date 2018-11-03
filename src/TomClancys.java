@@ -10,7 +10,7 @@
  */
 public class TomClancys {
     
-    private String tipe ;
+    private String judul ;
     private int harga ;
     private int pegiAge ;
 
@@ -18,12 +18,12 @@ public class TomClancys {
         
     }
 
-    public String getTipe() {
-        return tipe;
+    public String getJudul() {
+        return judul ;
     }
 
-    public void setTipe(String tipe) {
-        this.tipe = tipe ;
+    public void setJudul(String judul) {
+        this.judul= judul ;
         setHarga() ;
     }
 
@@ -32,11 +32,11 @@ public class TomClancys {
     }
 
     public void setHarga() {
-        if(this.tipe.equalsIgnoreCase("Tom Clancy's The Division")){
+        if(this.judul.equalsIgnoreCase("Tom Clancy's The Division")){
             this.harga = 600000 ;
-        } else if(this.tipe.equalsIgnoreCase("Tom Clancy's Rainbow Six Siege")){
+        } else if(this.judul.equalsIgnoreCase("Tom Clancy's Rainbow Six Siege")){
             this.harga = 595000 ;
-        } else if(this.tipe.equalsIgnoreCase("Tom Clancy's Splinter Cell")){
+        } else if(this.judul.equalsIgnoreCase("Tom Clancy's Splinter Cell")){
             this.harga = 120000 ;
         } else {
             this.harga = 0 ;
@@ -52,7 +52,8 @@ public class TomClancys {
     }
     
     public String info () {
-        
+        String info = "" ;
+        info += 
     }
     
 }
