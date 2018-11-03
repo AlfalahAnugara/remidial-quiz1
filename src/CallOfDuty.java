@@ -18,15 +18,16 @@ public class CallOfDuty {
     }
 
     public String getJudul() {
-        return judul;
+        return judul ;
     }
 
     public void setJudul(String judul) {
-        this.judul = judul;
+        this.judul = judul ;
+        setHarga () ;
     }
 
     public int getHarga() {
-        return harga;
+        return harga ;
     }
 
     public void setHarga() {
@@ -49,5 +50,8 @@ public class CallOfDuty {
         this.pegiAge = pegiAge;
     }
     
-    
+    public String info () {
+        String info = "" ;
+        
+    }
 }
