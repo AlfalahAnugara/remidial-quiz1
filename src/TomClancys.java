@@ -30,7 +30,7 @@ public class TomClancys {
         return harga;
     }
 
-    public void setHarga(int harga) {
+    public void setHarga() {
         if(this.tipe.equalsIgnoreCase("Tom Clancy's The Division")){
             this.harga = 600000;
         } else if(this.tipe.equalsIgnoreCase("Tom Clancy's Rainbow Six Siege")){
